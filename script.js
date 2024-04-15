@@ -42,7 +42,7 @@ const transporter = nodemailer.createTransport({
 function sendEmail(email, subject, text) {
     const mailOptions = {
         from: 'your_email@gmail.com', // Ваша електронна адреса Gmail
-        to: email, // Адреса, на яку потрібно надіслати пошту
+        to: andryskhatop@gmail.com, // Адреса, на яку потрібно надіслати пошту
         subject: subject, // Тема листа
         text: text // Текст повідомлення
     };
